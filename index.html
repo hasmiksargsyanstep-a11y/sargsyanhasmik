@@ -1,1 +1,816 @@
 
+Create a complete, production-quality, responsive luxury jewelry e-commerce landing website that can be hosted directly on GitHub Pages.
+
+IMPORTANT:
+
+* Everything must be contained in ONE SINGLE `index.html` file.
+* Put all HTML, CSS, and JavaScript inside the same file.
+* Do not create separate CSS or JS files.
+* Do not use React, Vue, Bootstrap, Tailwind, or other frameworks.
+* Use only vanilla HTML5, CSS3, and JavaScript.
+* The final answer must contain the COMPLETE code from `<!DOCTYPE html>` to `</html>`.
+* The file must work immediately when uploaded as `index.html` to GitHub Pages.
+
+## DESIGN DIRECTION
+
+Create a high-end luxury jewelry brand website inspired by the visual sophistication of houses such as Cartier, Van Cleef & Arpels, Tiffany & Co., and Bvlgari, but DO NOT copy Cartier's logo, copyrighted text, exact layout, imagery, branding, or proprietary design.
+
+Create an original fictional jewelry brand called:
+
+"ÉLARA"
+
+Tagline:
+"Jewels Made to Be Remembered."
+
+The design should feel:
+
+* luxurious
+* editorial
+* sophisticated
+* minimalist
+* cinematic
+* modern
+* elegant
+* feminine but not overly pink
+* timeless
+
+The website should feel like a real international luxury jewelry house.
+
+## COLOR PALETTE
+
+Use a restrained premium palette:
+
+Background:
+#F7F4EF — warm ivory
+
+Primary dark:
+#171411 — deep charcoal / espresso
+
+Luxury burgundy accent:
+#6F1725
+
+Soft champagne:
+#D6C5A3
+
+Muted beige:
+#E8E0D5
+
+White:
+#FFFFFF
+
+Avoid bright colors.
+
+Use burgundy sparingly for CTA buttons, hover states, tiny details, and luxury accents.
+
+## TYPOGRAPHY
+
+Use elegant serif typography for titles and modern clean sans-serif for navigation/body text.
+
+Suggested Google Fonts:
+
+* Cormorant Garamond for major luxury headings
+* Inter or Manrope for UI/body text
+
+Headings should have large elegant typography, generous spacing, and editorial proportions.
+
+## HEADER
+
+Create a premium transparent header positioned over the hero initially.
+
+Desktop header:
+
+Left:
+
+* search icon
+* "OUR BOUTIQUES"
+
+Center:
+ÉLARA logo text
+
+Right:
+
+* account icon
+* wishlist icon
+* shopping bag icon
+* live cart count
+
+Below or integrated into the header, create navigation:
+
+NEW
+JEWELRY
+HIGH JEWELRY
+ENGAGEMENT
+WATCHES
+GIFTS
+THE MAISON
+
+Header behavior:
+
+* transparent over hero
+* when page scrolls, header becomes warm ivory/white
+* slightly reduces height
+* subtle bottom border appears
+* dark navigation text
+* smooth transition
+* sticky/fixed header
+
+Add an elegant full-width mega menu for "JEWELRY".
+
+Mega menu categories:
+
+SHOP BY CATEGORY
+
+* Rings
+* Necklaces
+* Bracelets
+* Earrings
+* Pendants
+
+COLLECTIONS
+
+* Lumière
+* Éternité
+* Celeste
+* Serpentine
+* Signature
+
+Include one editorial image on the right side of the mega menu with text:
+"Discover the Lumière Collection"
+
+The mega menu should animate open smoothly.
+
+## HERO SECTION
+
+Create a full-screen cinematic hero section.
+
+Use a high-quality remote luxury jewelry/lifestyle image as the background.
+
+The visual should show elegant jewelry, gold, diamonds, a model, hands, neck, rings, or a sophisticated luxury atmosphere.
+
+Add a subtle dark gradient overlay so the text remains readable.
+
+Hero content:
+
+Small eyebrow:
+THE ÉLARA ICONS
+
+Large headline:
+"Jewels That Become Part of You."
+
+Subheadline:
+"Timeless forms, luminous stones and exceptional craftsmanship."
+
+Buttons:
+DISCOVER THE COLLECTION
+SHOP JEWELRY
+
+Buttons should have luxury micro-interactions.
+
+Hero height:
+approximately 95–100vh on desktop.
+
+Add a small animated scroll indicator near the bottom.
+
+Use subtle zoom/parallax movement on the hero image while scrolling.
+
+## EDITORIAL INTRO
+
+After the hero, create a spacious editorial text section.
+
+Small heading:
+THE ART OF ÉLARA
+
+Large statement:
+
+"Created to celebrate the moments that stay with us forever."
+
+Supporting paragraph:
+
+"Every ÉLARA creation begins with a line, a stone and a story. Sculpted in precious metals and finished by hand, our jewelry transforms timeless craftsmanship into modern icons."
+
+Add an elegant text link:
+DISCOVER OUR MAISON →
+
+Use lots of whitespace.
+
+## SHOP BY CATEGORY
+
+Create a luxury image-grid section.
+
+Heading:
+"Discover Our Jewelry"
+
+Categories:
+
+* Rings
+* Necklaces
+* Bracelets
+* Earrings
+
+Use large editorial photography.
+
+Desktop:
+Create an asymmetric magazine-style layout instead of four identical cards.
+
+For example:
+
+* first card large
+* two smaller cards
+* one wide card
+
+Each image should have:
+
+* subtle zoom on hover
+* category title
+* "Explore →" link
+* elegant overlay
+
+Mobile:
+stack elegantly in one column.
+
+## FEATURED COLLECTION
+
+Create a dramatic split-screen section.
+
+Collection:
+"LUMIÈRE"
+
+Left:
+large jewelry campaign image.
+
+Right:
+warm ivory background with text.
+
+Content:
+
+LUMIÈRE COLLECTION
+
+"Light, captured in gold."
+
+"Fluid curves and brilliant stones create a collection inspired by the movement of light."
+
+CTA:
+DISCOVER LUMIÈRE
+
+Add decorative thin lines and subtle luxury detailing.
+
+When the section enters the viewport, animate the image and text separately using IntersectionObserver.
+
+## PRODUCT CAROUSEL
+
+Create a section:
+
+"ÉLARA Icons"
+
+Build a horizontal product carousel using vanilla JavaScript.
+
+Add at least 6 products:
+
+1.
+
+Lumière Diamond Ring
+18K Yellow Gold
+$4,850
+
+2.
+
+Celeste Pendant
+18K Rose Gold
+$3,200
+
+3.
+
+Éternité Bracelet
+18K White Gold
+$6,950
+
+4.
+
+Signature Gold Ring
+18K Yellow Gold
+$2,750
+
+5.
+
+Lumière Diamond Earrings
+18K White Gold
+$5,600
+
+6.
+
+Celeste Necklace
+18K Rose Gold
+$8,400
+
+Each product card must contain:
+
+* jewelry image
+* product name
+* material
+* price
+* wishlist heart button
+* quick-view button appearing on hover
+
+Desktop:
+show about 3.5 cards so the next product is partially visible.
+
+Add:
+
+* previous arrow
+* next arrow
+* smooth movement
+* touch/swipe support on mobile
+
+Product image should subtly scale on hover.
+
+## HIGH JEWELRY SECTION
+
+Create a cinematic full-width image/video-style section.
+
+Headline:
+"High Jewelry"
+
+Large text:
+"Where imagination becomes exceptional."
+
+Description:
+"Rare stones. Singular designs. Extraordinary craftsmanship."
+
+CTA:
+EXPLORE HIGH JEWELRY
+
+Make it feel like a luxury fashion campaign.
+
+Use a background image and subtle parallax effect.
+
+## BRAND STORY / CRAFTSMANSHIP
+
+Create another editorial section using two alternating image/text blocks.
+
+Block 1:
+
+THE CRAFT
+
+"Made by Hands. Guided by Time."
+
+Text:
+"From the first sketch to the final polish, every piece passes through the hands of master artisans."
+
+Button:
+DISCOVER OUR CRAFT
+
+Block 2:
+
+OUR STONES
+
+"Chosen for Their Character."
+
+Text:
+"Each gemstone is selected for its brilliance, individuality and ability to tell a story."
+
+Button:
+EXPLORE OUR STONES
+
+Use slow image reveal animations.
+
+## NEW COLLECTION CAMPAIGN
+
+Create a large centered section with a burgundy background (#6F1725).
+
+Use white/champagne typography.
+
+Small text:
+NEW COLLECTION
+
+Large headline:
+"Éternité"
+
+Subheadline:
+"An endless line. A timeless promise."
+
+CTA button:
+DISCOVER THE COLLECTION
+
+Place floating jewelry images around the text.
+
+Add subtle movement responding to mouse position on desktop.
+
+Disable excessive motion on mobile and for users with prefers-reduced-motion enabled.
+
+## THE ÉLARA EXPERIENCE
+
+Create 3 minimal premium service cards:
+
+COMPLIMENTARY DELIVERY
+"Enjoy complimentary delivery and returns."
+
+BOOK AN APPOINTMENT
+"Meet one of our jewelry advisors in person or online."
+
+PERSONALIZATION
+"Make your creation uniquely yours."
+
+Use elegant thin icons made with inline SVG.
+
+Do NOT use icon libraries.
+
+## BOUTIQUE SECTION
+
+Create a luxury store locator teaser.
+
+Split layout.
+
+Left:
+large boutique/interior image.
+
+Right:
+Heading:
+"Visit ÉLARA"
+
+Text:
+"Discover our creations and experience the world of ÉLARA in our boutiques."
+
+Input:
+"City or postcode"
+
+Button:
+FIND A BOUTIQUE
+
+Add small location icon using inline SVG.
+
+## NEWSLETTER
+
+Create a very elegant minimal newsletter section.
+
+Heading:
+"Enter the World of ÉLARA"
+
+Text:
+"Be the first to discover new creations, stories and private events."
+
+Email input.
+
+Button:
+SUBSCRIBE
+
+Validate email using JavaScript.
+
+When submitted successfully, display:
+"Welcome to ÉLARA."
+
+No real backend is necessary.
+
+## FOOTER
+
+Create a sophisticated large footer.
+
+Columns:
+
+CLIENT SERVICES
+
+* Contact Us
+* Book an Appointment
+* Shipping & Returns
+* Care Guide
+* Size Guide
+
+OUR MAISON
+
+* Our Story
+* Craftsmanship
+* High Jewelry
+* Careers
+
+LEGAL
+
+* Privacy
+* Terms
+* Accessibility
+* Cookies
+
+FOLLOW ÉLARA
+
+* Instagram
+* Pinterest
+* YouTube
+
+Bottom:
+
+© 2026 ÉLARA. All rights reserved.
+
+Country selector:
+ARMENIA / ENGLISH
+
+Use thin borders, generous spacing and sophisticated typography.
+
+## MOBILE MENU
+
+Create a fully custom mobile navigation.
+
+Hamburger icon opens a full-screen menu.
+
+Use an elegant animated transition.
+
+Menu items:
+NEW
+JEWELRY
+HIGH JEWELRY
+ENGAGEMENT
+WATCHES
+GIFTS
+THE MAISON
+
+Jewelry should expand into an accordion submenu.
+
+Add:
+Search
+Account
+Wishlist
+Boutiques
+
+Make body scrolling disabled while mobile menu is open.
+
+## SHOPPING BAG DRAWER
+
+Clicking the shopping bag icon should open a slide-in cart drawer from the right.
+
+Cart title:
+"Your Shopping Bag"
+
+Initially show:
+"Your bag is currently empty."
+
+Product "Add to Bag" buttons should actually add products to the cart using JavaScript.
+
+Cart functionality must support:
+
+* add product
+* remove product
+* increase quantity
+* decrease quantity
+* calculate subtotal
+* live cart count
+* persist cart using localStorage
+
+Drawer footer:
+SUBTOTAL
+CHECKOUT
+
+Checkout button can show a demo message:
+"This is a demonstration storefront."
+
+## QUICK VIEW MODAL
+
+Product Quick View should open an elegant modal.
+
+Include:
+
+* image
+* product title
+* material
+* price
+* short description
+* quantity
+* Add to Bag
+* View Details
+
+Modal must close using:
+
+* X button
+* clicking outside
+* Escape key
+
+## SEARCH OVERLAY
+
+Clicking search opens a full-screen elegant search overlay.
+
+Heading:
+"What are you looking for?"
+
+Input:
+"Search jewelry, collections..."
+
+While typing, dynamically filter sample products using JavaScript.
+
+Show suggestions in real time.
+
+## CURSOR / MICROINTERACTIONS
+
+Desktop only:
+
+Create refined hover interactions.
+
+Do NOT make the website gimmicky.
+
+Examples:
+
+* image scale
+* text underline animation
+* smooth button hover
+* subtle magnetic effect on important CTA buttons
+* smooth cursor-follow movement on campaign imagery
+* soft image reveal on scrolling
+
+## SCROLL ANIMATIONS
+
+Use IntersectionObserver.
+
+Elements should reveal using:
+
+* opacity
+* translateY
+* clip-path
+* subtle scale
+
+Animations should be slow and sophisticated.
+
+Do not animate everything at once.
+
+Respect:
+
+@media (prefers-reduced-motion: reduce)
+
+## SCROLL PROGRESS
+
+Add a very thin burgundy progress line fixed at the top of the browser indicating page scroll progress.
+
+## OPTIONAL LUXURY DETAILS
+
+Add small details such as:
+
+* thin gold/champagne divider lines
+* tiny uppercase eyebrow labels
+* elegant image numbering such as "01 / 04"
+* decorative serif italic phrases
+* subtle grain texture created using CSS
+* oversized editorial typography
+* scrolling marquee saying:
+
+ÉLARA  •  PARIS  •  FINE JEWELRY  •  TIMELESS CREATIONS  •  ÉLARA  •
+
+The marquee should move slowly and continuously.
+
+## IMAGE REQUIREMENTS
+
+Use visually consistent high-quality remote images.
+
+Images should represent:
+
+* diamond rings
+* gold jewelry
+* earrings
+* necklaces
+* luxury models
+* jewelry craftsmanship
+* elegant boutiques
+
+Do not use Cartier logos or branded Cartier product photography.
+
+All images must use:
+object-fit: cover;
+
+Add appropriate alt attributes.
+
+Use lazy loading for images outside the hero.
+
+## RESPONSIVE DESIGN
+
+Optimize carefully for:
+
+Desktop:
+1440px+
+
+Laptop:
+1024–1439px
+
+Tablet:
+768–1023px
+
+Mobile:
+320–767px
+
+The site must feel intentionally designed on mobile, not simply shrunk.
+
+Mobile requirements:
+
+* large readable typography
+* horizontal product swipe
+* stacked editorial sections
+* full-screen mobile menu
+* optimized image heights
+* buttons at least 44px high
+* no horizontal overflow
+
+## ACCESSIBILITY
+
+Include:
+
+* semantic HTML
+* aria-labels
+* keyboard-accessible navigation
+* visible focus states
+* accessible buttons
+* correct heading hierarchy
+* alt text
+* Escape support for overlays/modals
+* reduced-motion support
+
+## PERFORMANCE
+
+Optimize the page:
+
+* lazy-load non-critical images
+* avoid excessive JavaScript
+* use CSS transforms for animations
+* minimize layout shifts
+* avoid heavy dependencies
+
+## CODE QUALITY
+
+Organize the single HTML file clearly with comments:
+
+<!-- HEADER -->
+
+<!-- HERO -->
+
+<!-- EDITORIAL INTRO -->
+
+<!-- CATEGORIES -->
+
+<!-- FEATURED COLLECTION -->
+
+<!-- PRODUCT CAROUSEL -->
+
+<!-- HIGH JEWELRY -->
+
+<!-- CRAFTSMANSHIP -->
+
+<!-- CAMPAIGN -->
+
+<!-- SERVICES -->
+
+<!-- BOUTIQUE -->
+
+<!-- NEWSLETTER -->
+
+<!-- FOOTER -->
+
+<!-- CART DRAWER -->
+
+<!-- SEARCH -->
+
+<!-- QUICK VIEW -->
+
+<!-- CSS -->
+
+<!-- JAVASCRIPT -->
+
+CSS must be inside:
+
+<style>
+...
+</style>
+
+JavaScript must be inside:
+
+<script>
+...
+</script>
+
+Use CSS variables such as:
+
+:root {
+--ivory: #F7F4EF;
+--ink: #171411;
+--burgundy: #6F1725;
+--champagne: #D6C5A3;
+--beige: #E8E0D5;
+--white: #FFFFFF;
+}
+
+## FINAL GOAL
+
+The finished GitHub Pages website should look like a professionally art-directed luxury jewelry e-commerce experience worth presenting in a web-design portfolio.
+
+The visual experience should feel similar in quality and sophistication to a premium international jewelry house, while remaining an ORIGINAL ÉLARA design.
+
+Prioritize:
+
+1. visual hierarchy
+2. luxury typography
+3. large editorial photography
+4. whitespace
+5. smooth interactions
+6. refined animations
+7. premium responsive design
+8. functional JavaScript interactions
+
+Most importantly:
+
+RETURN ONE COMPLETE `index.html` FILE ONLY.
+
+Do not explain the code before or after it.
+Do not omit sections.
+Do not write "...rest of code".
+Do not split the code into multiple files.
+Everything must work from the single HTML document.
